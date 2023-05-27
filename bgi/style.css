@@ -64,10 +64,12 @@ header img {
     width: 50%;
 }
 
-.local{
+
+.local {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
     background-color: #f385b5;
+    gap: 50px;
     color: white;
 }
 .imagens{
@@ -86,6 +88,12 @@ header img {
     width: 130px;
     gap: 5px;
 }
+
+.mapa:hover{
+    background-color: #19ade4;
+    transition: all 0.5s;
+}
+
 .imagens i{
     font-size: 45px;
     color: white;
@@ -98,9 +106,42 @@ header img {
 html{
     scroll-behavior: smooth;
 }
-
-.calcado{
-    background-image: url(img/banner.png);
-    background-repeat: no-repeat;
+ 
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.texto{
+    background-color: #FF0080;
+    color: white;
+}
+.divsvg{
+    margin-bottom: -5px;
+    background-color:#f385b5;
 }
 
+.font5{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    width: 50%;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+main .local .localizacao {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+iframe {
+    width: 100%;
+}
