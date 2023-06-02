@@ -1,0 +1,5 @@
+@media (max-width: 321px) {
+    .imagens, .part1{
+        display: block;
+    }
+}

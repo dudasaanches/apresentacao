@@ -43,6 +43,7 @@ header img {
     font-family: 'Fraunces', serif;
     padding: 20px;
     font-size: 20px;
+
 }
 
 .part1 {
@@ -72,6 +73,26 @@ header img {
     gap: 50px;
     color: white;
 }
+
+.localizacao{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    width: fit-content;
+    margin-left: 10%;
+}
+
+.txt {
+    width: fit-content;
+    margin-right: 20%;
+}
+
+.txt .font2{
+    width: 600px;
+}
+
 .imagens{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -80,26 +101,29 @@ header img {
     align-items: center;
 }
 
-.mapa{
+.bnt{
     background-color:gray;
     padding: 15px;
     color: white;
     border-radius: 20px;
     width: 130px;
-    gap: 5px;
+    height: 75px;
+    text-align: center;
 }
 
-.mapa:hover{
-    background-color: #19ade4;
+.bnt:hover{
+    background-color: #FF0080;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
-.imagens i{
+.bnt i{
     font-size: 45px;
     color: white;
+    padding: 5px;
 }
 
-.mapa p{
+.bnt p{
     font-family: 'Fraunces', serif;
 }
 
@@ -131,10 +155,11 @@ h1{
     width: 50%;
 }
 
-h2{
+.font{
     font-family: 'Fraunces', serif;
     text-align: center;
     font-size: 55px;
+    padding: 20px;
 }
 
 main .local .localizacao {
@@ -143,5 +168,30 @@ main .local .localizacao {
 }
 
 iframe {
-    width: 100%;
+    width: 550px;
+    padding: 5px;
+}
+
+.reco, .calcado{
+    background-color: #8755ad;
+    color: #fff;
+}
+
+.reco1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.reco1 .font5{
+    background-color: #63318a;
+    padding: 5px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.reco img{
+    width: 550px;
+    border-radius: 10px;
 }

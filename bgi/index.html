@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Dashboard</title>
 </head>
 
@@ -21,23 +22,23 @@
     </header>
     <main>
         <section class="imagens">
-            <div class="mapa">
+            <div class="bnt">
                 <div><a href="#local"><i class="fa-solid fa-location-dot"></i></a></div>
                 <p>Mapa Geográfico</p>
             </div>
-            <div class="mapa">
+            <div class="bnt">
                 <div><a href="#calcado"><i class="fa-solid fa-building-columns"></i></a></div>
                 <p>Breve Histórico</p>
             </div>
-            <div class="mapa">
-                <div><a href=""><i class="fa-solid fa-medal"></i></a></div>
+            <div class="bnt">
+                <div><a href="#reco"><i class="fa-solid fa-medal"></i></a></div>
                 <p>Reconhecimento</p>
             </div>
-            <div class="mapa">
+            <div class="bnt">
                 <div><a href=""><i class="fa-solid fa-circle-check"></i></a></div>
                 <p>Benefícios</p>
             </div>
-            <div class="mapa">
+            <div class="bnt">
                 <div><a href=""><i class="fa-solid fa-handshake"></i></a></div>
                 <p>Parceiros</p>
             </div>
@@ -59,14 +60,13 @@
         <section class="local" id="local">
             <h1>Mapa Geográfico</h1>
             <div class="localizacao">
-                <div>
-
+                <div class="mapa">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59481.391195513446!2d-50.33415575!3d-21.2878117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949614dbc17ff293%3A0x17db7a678a4bf9ad!2sBirigui%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1685037997359!5m2!1spt-BR!2sbr"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div>
+                <div class="txt">
                     <p class="font2">Birigui é uma cidade localizada no estado de São Paulo, no Brasil. Ela está situada
                         na
                         região noroeste do estado, a aproximadamente 530 quilômetros da capital, São Paulo.
@@ -161,7 +161,7 @@
                 </svg>
             </div>
             <div class="texto">
-                <h2>Breve Histórico</h2>
+                <h2 class="font">Breve Histórico</h2>
                 <p class="font5">
                     Birigui é conhecida como a "Capital Nacional do Calçado Infantil" devido à sua importância histórica
                     e tradição na produção de calçados para crianças. A cidade se destaca pela qualidade, diversidade e
@@ -241,6 +241,18 @@
                     class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)">
                 </path>
             </svg>
+        </section>
+        <section class="reco" id="reco">
+            <div>
+                <h2 class="font">Reconhecimento</h2>
+            </div>
+            <div class="reco1">
+                <p class="font5">No dia 21 de março, o Instituto Nacional de Propriedade Industrial (INPI) concedeu o 
+                    reconhecimento da Indicação Geográfica (IG) ao Calçado Infantil de Birigui. Esse importante
+                    marco coloca a cidade de Birigui, cidade referência na produção de calçados infantis de qualidade 
+                    e tradição.</p>
+                <img src="img/sapato.webp" alt="">
+            </div>
         </section>
     </main>
 </body>
